@@ -18,7 +18,7 @@
     justify-content: center;
     background-color: #283e4a;
     width: 100%;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 input{
@@ -69,6 +69,15 @@ input{
     margin-right: 20px;
 }
 
+.icon{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    fill: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -88,7 +97,17 @@ input{
 }
 
 .dp{
-    height: 45px;
+    height: 35px;
+    border-radius: 50%;
+    border: solid 1px #fff;
+}
+
+.dpalt{
+    margin-left: 10px;
+}
+
+.alt{
+    display: none;
 }
 
 .header{
@@ -158,13 +177,25 @@ span{
     .nav{
         padding: 0;
         width: 100%;
-        padding-top: 10px;
+        padding: 10px;
     }
 
     .search{
         width: 60%;
+        margin-left: 10px;
     }
 
+    .favicon{
+        display: none;
+    }
+
+    .alt{
+        display: block;
+    }
+
+    .dpalt{
+        display: none;
+    }
 
     .container{
         width: 100%;
